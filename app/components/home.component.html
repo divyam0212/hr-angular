@@ -1,0 +1,9 @@
+<div>
+    <a routerLink="/login" role="button" class="btn btn-default btn-md" (click)="onLoginClick()">LOGIN</a>&nbsp;
+
+    <a routerLink="/register" role="button" class="btn btn-default btn-md" (click)="onSignClick()">SIGNUP</a>
+    <br>
+    <login *ngIf="login"></login>
+<router-outlet></router-outlet>
+
+</div>

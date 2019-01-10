@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>HackerRank</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="/hacker-rank/src/app/app.component.css">
+</head>
+<body>
+    <div id="container" style="text-align: center;">
+        <div id="header">
+          <img src="https://hrcdn.net/hackerrank/assets/brand/typemark_60x200-80fdae47b3b14df04f5300a7b30281cb.png">
+        </div>
+        <div id="content">
+            <div id="main">
+                  <div>
+                      <home></home>
+                  </div>
+                  <div>
+                      <hr>
+                  </div>
+                  <div>
+                      Or connect with:
+                  </div>
+                  <div class="social">
+                        <button id="fb"  onclick="window.location='https://www.facebook.com'">
+                              <i class="fa fa-facebook" style="font-size: 15px; color: white;">&nbsp;facebook</i>
+                        </button>
+                        <button id="linkedin"   onclick="window.location='https://www.linkedin.com'">
+                              <i class="fa fa-linkedin" style="font-size: 13px; color: white;">&nbsp;linked
+                                    in</i>
+                        </button>
+                        <button id="gmail"   onclick="window.location='https://www.gmail.com'">
+                              <i class="fa fa-google" style="font-size: 15px; color: white;">&nbsp;gmail</i>
+                        </button>
+                        <button id="git"   onclick="window.location='https://www.github.com'">
+                              <i class="fa fa-github" style="font-size: 15px; color: white;">&nbsp;github</i>
+                        </button>
+                 </div>
+                 <div id="policy">
+                        By signing up, you agree to our <a target="_blank"
+                              href="/terms-of-service">Terms of Service</a> and <a
+                              target="_blank" href="/privacy">Privacy Policy</a>.
+                 </div>
+
+			      </div>
+	    </div>
+      <div id="footer">
+        <a routerLink="/login" class="link">Are you looking for HackerRank for Work?</a>
+      </div>
+	    <router-outlet></router-outlet>
+    </div>
+</body>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</html>
